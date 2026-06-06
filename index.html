@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deepak Vishal Rajan — Business Intelligence Engineer & Agentic AI Builder</title>
+  <meta name="description" content="Deepak Vishal Rajan — Business Intelligence Engineer at Amazon Prime Video. 8+ years across analytics, data engineering, and agentic AI. Available for senior Data Analytics & BI Engineering roles." />
+
+  <!-- Open Graph / social preview -->
+  <meta property="og:title" content="Deepak Vishal Rajan — BI Engineer & Agentic AI Builder" />
+  <meta property="og:description" content="Turning complex data into decisions, and building the AI systems that get there faster." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://rdeepakvishal.github.io/" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===== Navigation ===== -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#hero" class="nav__brand">DVR</a>
+      <nav aria-label="Primary">
+        <ul class="nav__links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#feedback">Shout-outs</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ===== Hero ===== -->
+    <section class="hero" id="hero">
+      <div class="container hero__inner reveal">
+        <p class="hero__eyebrow">Business Intelligence · Agentic AI</p>
+        <h1 class="hero__name">Deepak Vishal Rajan</h1>
+        <h2 class="hero__title">Business Intelligence Engineer &amp; Agentic AI Builder</h2>
+        <p class="hero__tagline">
+          Turning complex data into decisions, and building the AI systems that get there faster.
+        </p>
+        <div class="hero__cta">
+          <a class="btn" href="https://www.linkedin.com/in/deepak-vishal-rajan" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn" href="https://github.com/rdeepakvishal" target="_blank" rel="noopener">GitHub</a>
+          <!-- PLACEHOLDER: drop your resume PDF into assets/ and confirm the filename below -->
+          <a class="btn" href="assets/Deepak-Vishal-Rajan-Resume.pdf" target="_blank" rel="noopener">Resume</a>
+          <a class="btn" href="mailto:rdeepakvishal@gmail.com">Email</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section class="section" id="about">
+      <div class="container reveal">
+        <h2 class="section__title"><span class="section__num">01</span> About</h2>
+        <div class="about__body">
+          <p>
+            I'm a Business Intelligence Engineer at Amazon Prime Video, where I build the data
+            systems and AI agents that help leaders make faster, sharper decisions. Over the past
+            8+ years I've worked across analytics, data engineering, and data science, spanning
+            Amazon, AstraZeneca, and Latentview, and across the US, France, Luxembourg, and India.
+          </p>
+          <p>
+            Lately my focus has been agentic AI: building production assistants that let
+            non-technical teams query complex data in plain English and get trustworthy,
+            decision-ready answers in seconds. I care about the unglamorous parts that make data
+            actually useful, like clean metric definitions, transparent logic, and systems people
+            can trust.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Featured Project ===== -->
+    <section class="section" id="project">
+      <div class="container reveal">
+        <h2 class="section__title"><span class="section__num">02</span> Featured Project</h2>
+
+        <article class="project">
+          <div class="project__content">
+            <h3 class="project__name">InsightAgent</h3>
+            <p class="project__lede">An agentic BI assistant.</p>
+            <p>
+              InsightAgent is a production-style agentic BI assistant. You ask a business question
+              in plain English, and the agent writes its own SQL, queries a multi-table warehouse,
+              and returns a narrative answer, a chart, and the exact queries it ran, so nothing is a
+              black box.
+            </p>
+            <p>
+              It's a public, shareable distillation of an internal agentic BI system I shipped at
+              Amazon Prime Video, where senior product leaders and directors query 100+ tables and
+              120+ metrics in natural language. This version recreates the core pattern on a
+              synthetic subscription-payments dataset so the whole approach can be inspected end to
+              end.
+            </p>
+
+            <ul class="project__features">
+              <li>Agentic loop, not one-shot text-to-SQL: queries, reads results, and refines like an analyst would</li>
+              <li>Grounded in a semantic layer so metric definitions stay consistent</li>
+              <li>Read-only safety enforced at two independent layers</li>
+              <li>Full transparency: every answer ships with the SQL that produced it</li>
+              <li>Closed-loop thumbs up/down feedback for continuous improvement</li>
+            </ul>
+
+            <ul class="badges" aria-label="Tech stack">
+              <li class="badge">Claude API</li>
+              <li class="badge">Python</li>
+              <li class="badge">Streamlit</li>
+              <li class="badge">SQL</li>
+              <li class="badge">Plotly</li>
+            </ul>
+
+            <div class="project__cta">
+              <a class="btn btn--primary" href="https://insightagent-dvr.streamlit.app/" target="_blank" rel="noopener">Live Demo</a>
+              <a class="btn" href="https://github.com/rdeepakvishal/insightagent" target="_blank" rel="noopener">View Code</a>
+            </div>
+          </div>
+
+          <div class="project__gallery">
+            <figure class="shot">
+              <button class="shot__btn" type="button" aria-label="Enlarge screenshot: plain-English question and narrative answer">
+                <img src="assets/insightagent-screenshot-1.png"
+                     alt="InsightAgent answering a plain-English question about new signup trends with a written narrative of the key takeaways"
+                     loading="lazy" />
+              </button>
+              <figcaption>Ask in plain English — get a narrative answer.</figcaption>
+            </figure>
+            <figure class="shot">
+              <button class="shot__btn" type="button" aria-label="Enlarge screenshot: generated chart">
+                <img src="assets/insightagent-screenshot-2.png"
+                     alt="A line chart of monthly new signups from January 2023 to February 2025, with a business-implication summary above it"
+                     loading="lazy" />
+              </button>
+              <figcaption>Every answer comes with the right chart.</figcaption>
+            </figure>
+            <figure class="shot">
+              <button class="shot__btn" type="button" aria-label="Enlarge screenshot: the SQL the agent ran and its results">
+                <img src="assets/insightagent-screenshot-3.png"
+                     alt="The exact SQL query the agent generated alongside the raw result rows it returned"
+                     loading="lazy" />
+              </button>
+              <figcaption>And the exact SQL it ran — nothing hidden.</figcaption>
+            </figure>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== Experience ===== -->
+    <section class="section" id="experience">
+      <div class="container reveal">
+        <h2 class="section__title"><span class="section__num">03</span> Experience Highlights</h2>
+
+        <div class="stats">
+          <div class="stat">
+            <span class="stat__num">8+</span>
+            <span class="stat__label">years in analytics, BI &amp; data engineering</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">$350M+</span>
+            <span class="stat__label">in business impact delivered</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">10x</span>
+            <span class="stat__label">faster analysis turnaround</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">3 / 4</span>
+            <span class="stat__label">companies across four countries</span>
+          </div>
+        </div>
+
+        <ol class="timeline">
+          <li class="timeline__item">
+            <div class="timeline__period">2021 — Present</div>
+            <div class="timeline__detail">
+              <h3>Business Intelligence Engineer &amp; Analyst</h3>
+              <p class="timeline__org">Amazon <span>· Seattle &amp; Luxembourg</span></p>
+              <ul class="timeline__points">
+                <li>Built an agentic BI assistant on Bedrock + Redshift over 100+ tables and 120+ metrics, cutting ad-hoc analysis from 30+ minutes to under 3.</li>
+                <li>Shipped a 93%-accuracy involuntary-churn prediction pipeline and the dashboards leaders use to act on it.</li>
+                <li>Drove a 55% YoY cost reduction (€21.1M → €10.3M) on the EU Standby program through better estimation and process design.</li>
+              </ul>
+            </div>
+          </li>
+          <li class="timeline__item">
+            <div class="timeline__period">2019 — 2020</div>
+            <div class="timeline__detail">
+              <h3>Business &amp; Data Analyst</h3>
+              <p class="timeline__org">AstraZeneca <span>· Paris</span></p>
+              <ul class="timeline__points">
+                <li>Improved healthcare-account targeting with K-Means clustering and weighted scoring for sharper campaigns.</li>
+                <li>Modeled sales-KPI drivers with Granger-causality time-series analysis and automated multichannel activity tracking.</li>
+              </ul>
+            </div>
+          </li>
+          <li class="timeline__item">
+            <div class="timeline__period">2016 — 2018</div>
+            <div class="timeline__detail">
+              <h3>Data Analyst</h3>
+              <p class="timeline__org">Latentview Analytics <span>· Chennai</span></p>
+              <ul class="timeline__points">
+                <li>Built predictive defect/breakdown models from BMW vehicle telemetry and warranty data.</li>
+                <li>Shipped a real-time self-service analytics tool (React, Spark, Scala) that delivered 35% savings on warranty claims.</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== Skills ===== -->
+    <section class="section" id="skills">
+      <div class="container reveal">
+        <h2 class="section__title"><span class="section__num">04</span> Skills</h2>
+
+        <div class="skills">
+          <div class="skills__group">
+            <h3>Languages &amp; Tools</h3>
+            <ul class="chips">
+              <li>Python</li><li>R</li><li>SQL</li><li>Spark</li><li>Scala</li>
+              <li>Excel</li><li>MATLAB</li><li>MongoDB</li><li>HTML</li><li>CSS</li>
+              <li>JS</li><li>Claude Code</li><li>Kiro</li>
+            </ul>
+          </div>
+          <div class="skills__group">
+            <h3>Data Engineering</h3>
+            <ul class="chips">
+              <li>Amazon Redshift</li><li>AWS S3</li><li>Athena</li><li>Glue</li>
+              <li>DataCentral</li><li>Andes</li><li>Amazon Bedrock</li><li>Strands</li><li>AgentCore</li>
+            </ul>
+          </div>
+          <div class="skills__group">
+            <h3>Data Science</h3>
+            <ul class="chips">
+              <li>Machine Learning</li><li>Regression</li><li>Clustering</li><li>Time Series Forecasting</li>
+              <li>Deep Learning</li><li>NLP</li><li>A/B Testing</li>
+            </ul>
+          </div>
+          <div class="skills__group">
+            <h3>Visualization</h3>
+            <ul class="chips">
+              <li>Tableau</li><li>QuickSuite</li><li>MicroStrategy</li>
+              <li>Plotly</li><li>Matplotlib</li><li>CloudWatch</li><li>D3</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Education & Recognition ===== -->
+    <section class="section" id="education">
+      <div class="container reveal">
+        <h2 class="section__title"><span class="section__num">05</span> Education &amp; Recognition</h2>
+
+        <div class="edu">
+          <div class="edu__col">
+            <h3 class="edu__heading">Education</h3>
+            <div class="edu__item">
+              <h4>Master's in Data Sciences &amp; Business Analytics</h4>
+              <p class="edu__org"><a href="https://www.essec.edu/en/" target="_blank" rel="noopener">ESSEC Business School</a> &amp; <a href="https://www.centralesupelec.fr/" target="_blank" rel="noopener">CentraleSupélec</a> <span>· France</span></p>
+              <p class="edu__year">2018 — 2020</p>
+            </div>
+            <div class="edu__item">
+              <h4>B.E. in Mechanical Engineering</h4>
+              <p class="edu__org"><a href="https://www.annauniv.edu/" target="_blank" rel="noopener">Anna University</a> <span>· Chennai, India</span></p>
+              <p class="edu__year">2012 — 2016</p>
+            </div>
+          </div>
+
+          <div class="edu__col">
+            <h3 class="edu__heading">Honors &amp; Awards</h3>
+            <ul class="edu__awards">
+              <li><strong>NASSCOM AI Game Changer Award 2018</strong> — recognized among the best Advanced Analytics projects (Smart Insights).</li>
+              <li><strong>Spirit of LatentView, Encore &amp; Spot Awards</strong> — for outstanding individual contributions at LatentView Analytics.</li>
+            </ul>
+            <h3 class="edu__heading edu__heading--lang">Languages</h3>
+            <ul class="chips">
+              <li>English</li><li>French</li><li>Tamil</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Stakeholder Feedback ===== -->
+    <!-- NOTE: attributions are role-based (inferred from context) to stay credible
+         without publicly naming colleagues. Verify/adjust the roles below, or swap in
+         real names if you have those colleagues' consent. -->
+    <section class="section" id="feedback">
+      <div class="container reveal">
+        <h2 class="section__title"><span class="section__num">06</span> In Their Words</h2>
+        <p class="feedback__intro">In the words of the product leaders and partners I've worked with.</p>
+
+        <div class="quotes">
+          <figure class="quote">
+            <blockquote>
+              Your efforts in identifying the root cause and determining the impact of the recent
+              issue were truly remarkable. Your dedication and willingness to go the extra mile were
+              instrumental — I am immensely proud to have such talented individuals on our team.
+            </blockquote>
+            <figcaption>Senior Manager · Prime Video Payments</figcaption>
+          </figure>
+
+          <figure class="quote">
+            <blockquote>
+              Deepak's analysis told a compelling story about the early success of the launch, which
+              increased leadership excitement about further investment. He went deep to cross-validate
+              the results against engineering metrics, holding a high bar for data quality.
+            </blockquote>
+            <figcaption>Product Manager · Prime Video</figcaption>
+          </figure>
+
+          <figure class="quote">
+            <blockquote>
+              Wow, your Driver Load Dashboard is simply amazing — it's going to help the Relay Beta
+              app launch SO much. You have no idea how much time you saved the team. Simply fantastic!
+            </blockquote>
+            <figcaption>Product Lead · Amazon Relay</figcaption>
+          </figure>
+
+          <figure class="quote">
+            <blockquote>
+              Deepak really insisted on the highest standards — streamlining the planning methodology,
+              sourcing, and execution, coordinating across teams and leading the overall strategy to
+              guarantee a successful Peak.
+            </blockquote>
+            <figcaption>Program Lead · EU Amazon Transportation Services</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section class="section section--contact" id="contact">
+      <div class="container reveal">
+        <h2 class="section__title"><span class="section__num">07</span> Contact</h2>
+        <p class="contact__lede">
+          Open to Senior Data Analytics, BI Engineering, and Data Science roles. Let's talk.
+        </p>
+        <div class="contact__links">
+          <a class="btn" href="mailto:rdeepakvishal@gmail.com">Email</a>
+          <a class="btn" href="https://www.linkedin.com/in/deepak-vishal-rajan" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn" href="https://github.com/rdeepakvishal" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>© <span id="year"></span> Deepak Vishal Rajan</span>
+      <span class="footer__built">Built with plain HTML, CSS, JS &amp; a pinch of Claude Code.</span>
+    </div>
+  </footer>
+
+  <!-- Lightbox overlay for project screenshots (controlled by script.js) -->
+  <div class="lightbox" id="lightbox" hidden>
+    <button class="lightbox__close" type="button" aria-label="Close enlarged image">&times;</button>
+    <img class="lightbox__img" src="" alt="" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
