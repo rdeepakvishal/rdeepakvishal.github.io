@@ -43,18 +43,22 @@
     <!-- ===== Hero ===== -->
     <section class="hero" id="hero">
       <div class="container hero__inner reveal">
-        <p class="hero__eyebrow">Business Intelligence · Agentic AI</p>
-        <h1 class="hero__name">Deepak Vishal Rajan</h1>
-        <h2 class="hero__title">Business Intelligence Engineer &amp; Agentic AI Builder</h2>
-        <p class="hero__tagline">
-          Turning complex data into decisions, and building the AI systems that get there faster.
-        </p>
-        <div class="hero__cta">
-          <a class="btn" href="https://www.linkedin.com/in/deepak-vishal-rajan" target="_blank" rel="noopener">LinkedIn</a>
-          <a class="btn" href="https://github.com/rdeepakvishal" target="_blank" rel="noopener">GitHub</a>
-          <!-- PLACEHOLDER: drop your resume PDF into assets/ and confirm the filename below -->
-          <a class="btn" href="assets/Deepak-Vishal-Rajan-Resume.pdf" target="_blank" rel="noopener">Resume</a>
-          <a class="btn" href="mailto:rdeepakvishal@gmail.com">Email</a>
+        <div class="hero__text">
+          <p class="hero__eyebrow">Business Intelligence · Agentic AI</p>
+          <h1 class="hero__name">Deepak Vishal Rajan</h1>
+          <h2 class="hero__title">Business Intelligence Engineer &amp; Agentic AI Builder</h2>
+          <p class="hero__tagline">
+            Turning complex data into decisions, and building the AI systems that get there faster.
+          </p>
+          <div class="hero__cta">
+            <a class="btn" href="https://www.linkedin.com/in/deepak-vishal-rajan" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="btn" href="https://github.com/rdeepakvishal" target="_blank" rel="noopener">GitHub</a>
+            <a class="btn" href="assets/Deepak-Vishal-Rajan-Resume.pdf" target="_blank" rel="noopener">Resume</a>
+            <a class="btn" href="mailto:rdeepakvishal@gmail.com">Email</a>
+          </div>
+        </div>
+        <div class="hero__photo">
+          <img src="assets/headshot.jpeg" alt="Deepak Vishal Rajan" />
         </div>
       </div>
     </section>
@@ -185,7 +189,10 @@
             <div class="timeline__period">2021 — Present</div>
             <div class="timeline__detail">
               <h3>Business Intelligence Engineer &amp; Analyst</h3>
-              <p class="timeline__org">Amazon <span>· Seattle &amp; Luxembourg</span></p>
+              <p class="timeline__org">
+                <img class="org-logo" src="https://logo.clearbit.com/amazon.com" alt="Amazon logo" onerror="this.replaceWith(document.createTextNode('Amazon'))" />
+                Amazon <span>· Seattle &amp; Luxembourg</span>
+              </p>
               <ul class="timeline__points">
                 <li>Built an agentic BI assistant on Bedrock + Redshift over 100+ tables and 120+ metrics, cutting ad-hoc analysis from 30+ minutes to under 3.</li>
                 <li>Shipped a 93%-accuracy involuntary-churn prediction pipeline and the dashboards leaders use to act on it.</li>
@@ -197,7 +204,10 @@
             <div class="timeline__period">2019 — 2020</div>
             <div class="timeline__detail">
               <h3>Business &amp; Data Analyst</h3>
-              <p class="timeline__org">AstraZeneca <span>· Paris</span></p>
+              <p class="timeline__org">
+                <img class="org-logo" src="https://logo.clearbit.com/astrazeneca.com" alt="AstraZeneca logo" onerror="this.replaceWith(document.createTextNode('AstraZeneca'))" />
+                AstraZeneca <span>· Paris</span>
+              </p>
               <ul class="timeline__points">
                 <li>Improved healthcare-account targeting with K-Means clustering and weighted scoring for sharper campaigns.</li>
                 <li>Modeled sales-KPI drivers with Granger-causality time-series analysis and automated multichannel activity tracking.</li>
@@ -208,7 +218,10 @@
             <div class="timeline__period">2016 — 2018</div>
             <div class="timeline__detail">
               <h3>Data Analyst</h3>
-              <p class="timeline__org">Latentview Analytics <span>· Chennai</span></p>
+              <p class="timeline__org">
+                <img class="org-logo" src="https://logo.clearbit.com/latentview.com" alt="LatentView Analytics logo" onerror="this.style.display='none';this.insertAdjacentHTML('afterend','<span class=\'org-initial\'>L</span>')" />
+                Latentview Analytics <span>· Chennai</span>
+              </p>
               <ul class="timeline__points">
                 <li>Built predictive defect/breakdown models from BMW vehicle telemetry and warranty data.</li>
                 <li>Shipped a real-time self-service analytics tool (React, Spark, Scala) that delivered 35% savings on warranty claims.</li>
@@ -268,12 +281,29 @@
             <h3 class="edu__heading">Education</h3>
             <div class="edu__item">
               <h4>Master's in Data Sciences &amp; Business Analytics</h4>
-              <p class="edu__org"><a href="https://www.essec.edu/en/" target="_blank" rel="noopener">ESSEC Business School</a> &amp; <a href="https://www.centralesupelec.fr/" target="_blank" rel="noopener">CentraleSupélec</a> <span>· France</span></p>
+              <p class="edu__org edu__org--logos">
+                <span class="edu__logo-pair">
+                  <img class="org-logo" src="https://logo.clearbit.com/essec.edu" alt="ESSEC logo" onerror="this.style.display='none'" />
+                  <a href="https://www.essec.edu/en/" target="_blank" rel="noopener">ESSEC Business School</a>
+                </span>
+                <span class="edu__amp">&amp;</span>
+                <span class="edu__logo-pair">
+                  <img class="org-logo" src="https://logo.clearbit.com/centralesupelec.fr" alt="CentraleSupélec logo" onerror="this.style.display='none'" />
+                  <a href="https://www.centralesupelec.fr/" target="_blank" rel="noopener">CentraleSupélec</a>
+                </span>
+                <span>· France</span>
+              </p>
               <p class="edu__year">2018 — 2020</p>
             </div>
             <div class="edu__item">
               <h4>B.E. in Mechanical Engineering</h4>
-              <p class="edu__org"><a href="https://www.annauniv.edu/" target="_blank" rel="noopener">Anna University</a> <span>· Chennai, India</span></p>
+              <p class="edu__org edu__org--logos">
+                <span class="edu__logo-pair">
+                  <img class="org-logo" src="https://logo.clearbit.com/annauniv.edu" alt="Anna University logo" onerror="this.style.display='none'" />
+                  <a href="https://www.annauniv.edu/" target="_blank" rel="noopener">Anna University</a>
+                </span>
+                <span>· Chennai, India</span>
+              </p>
               <p class="edu__year">2012 — 2016</p>
             </div>
           </div>
