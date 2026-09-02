@@ -633,6 +633,42 @@ h1, h2, h3 { line-height: 1.2; font-family: var(--font-display); }
   font-weight: 600;
 }
 
+/* Named LinkedIn recommendations */
+.quote--named figcaption {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+.quote__name {
+  color: var(--text);
+  font-size: 0.98rem;
+  font-weight: 700;
+}
+.quote__role {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+.quote__via {
+  color: var(--text-faint);
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-top: 0.25rem;
+}
+
+/* Secondary group: internal shout-outs */
+.feedback__subhead {
+  margin: 3rem 0 1.25rem;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--accent);
+}
+.quotes--compact .quote { padding: 1.5rem; }
+.quotes--compact .quote blockquote { font-size: 0.92rem; }
+
 /* ----- Skills ----- */
 .skills {
   display: grid;
