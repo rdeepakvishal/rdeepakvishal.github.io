@@ -260,6 +260,7 @@ h1, h2, h3 { line-height: 1.2; font-family: var(--font-display); }
   border-radius: var(--radius);
   padding: clamp(1.5rem, 4vw, 2.5rem);
 }
+.project + .project { margin-top: 2rem; }
 .project__content { max-width: 70ch; }
 .project__name { font-size: 1.7rem; margin: 0; }
 .project__lede {
