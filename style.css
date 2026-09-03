@@ -262,6 +262,17 @@ h1, h2, h3 { line-height: 1.2; font-family: var(--font-display); }
 }
 .project + .project { margin-top: 2rem; }
 .project__content { max-width: 70ch; }
+
+/* Secondary project: same card, lighter weight than the two lead pieces */
+.project--compact { background: transparent; }
+.project__tag {
+  margin: 0 0 0.6rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--text-faint);
+}
 .project__name { font-size: 1.7rem; margin: 0; }
 .project__lede {
   color: var(--accent);
