@@ -237,24 +237,12 @@
             <h3 class="project__name">Maxterclass</h3>
             <p class="project__lede">A decade of Formula 1, measured properly.</p>
             <p>
-              Twelve seasons and 245 starts of lap-by-lap timing data, built into a scrollable
-              analysis of what the record actually shows. A Python pipeline derives every figure
-              from the raw tables; the page renders them as hand-built SVG, with no charting
-              library anywhere in it.
+              Twelve seasons of lap-by-lap Formula 1 data, built into a scrollable analysis with
+              hand-built SVG charts. The argument is about metric selection: the numbers everyone
+              quotes measure the car and the grid slot as much as the driver — count overtakes and
+              the most dominant season of the modern era ranks 19th of 20. Every chart carries its
+              denominator, its exclusions, and a published method note.
             </p>
-            <p>
-              The argument is about metric selection. The numbers everyone quotes measure the car
-              and the grid slot as much as the driver — count overtakes and the most dominant
-              season of the modern era ranks 19th of 20, because volume rewards starting badly.
-              Change the denominator and the ranking inverts.
-            </p>
-
-            <ul class="project__features">
-              <li>Derived measures rather than scoreboard stats: share of all lead laps, places gained per place lost</li>
-              <li>Teammate qualifying as a control group — same car, same garage, the closest thing the sport has to a controlled experiment</li>
-              <li>A published method note carrying every denominator, exclusion and caveat</li>
-              <li>Including a correction to my own earlier method, which had flattered exactly the seasons the story leaned on</li>
-            </ul>
 
             <ul class="badges" aria-label="Tech stack">
               <li class="badge">Python</li>
@@ -268,6 +256,17 @@
               <a class="btn btn--primary" href="https://rdeepakvishal.github.io/maxterclass/" target="_blank" rel="noopener">Read the Analysis</a>
               <a class="btn" href="https://github.com/rdeepakvishal/maxterclass" target="_blank" rel="noopener">View Code</a>
             </div>
+          </div>
+
+          <div class="project__gallery project__gallery--single">
+            <figure class="shot">
+              <button class="shot__btn" type="button" aria-label="Enlarge screenshot: the Maxterclass title page">
+                <img src="assets/maxterclass-screenshot-1.png"
+                     alt="The Maxterclass title page: twelve seasons and 245 starts, measuring the driver rather than the result sheet"
+                     loading="lazy" />
+              </button>
+              <figcaption>Twelve seasons, measured by the lap-by-lap record.</figcaption>
+            </figure>
           </div>
         </article>
       </div>
